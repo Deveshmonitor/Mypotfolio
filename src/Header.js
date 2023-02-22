@@ -4,7 +4,7 @@ function Header() {
     return (
         <>
 
-            <div className="Navbar text-white  w-11/12 m-auto py-4  flex flex-col 
+            <div className="Navbar text-white  w-[96%] m-auto py-4  flex flex-col 
             justify-between  md:flex-row 
    text-center align-middle items-center bg--500">
                 <div>
@@ -30,7 +30,7 @@ function Header() {
 
             {/* this is main content  */}
 
-            <div className="flex justify-between m-auto w-11/12">
+            <div className="flex justify-between m-auto w-[96%]">
                 <div className=' w-[40%] pt-40'>
                     <h1 className='text-6xl font-bold text-fuchsia-500'>Hey Guys!</h1>
                     <h1 className='text-6xl font-bold text-fuchsia-500'>I'm Devesh Sen</h1>
