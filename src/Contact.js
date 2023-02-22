@@ -23,7 +23,7 @@ function Contact() {
                     rounded-md my-4 " placeholder="Enter Your Text Here?"></textarea>
                     </form> 
                     <a href="" className=" px-2 py-1  text-md font-bold border-fuchsia-500 border-2 rounded-md 
-                     hover:bg-fuchsia-500">Submit</a>
+                     hover:bg-fuchsia-500">Submited</a>
                     
                 </div>
             </div>
