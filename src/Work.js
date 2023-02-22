@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from './Nav'
 
 function Work() {
   return (
 <>
-
+<Nav/>
 <div className='text-center'>
     <div className='text-center items-center align-middle'>
     <h1 className='text-fuchsia-500 text-8xl font-bold text-center my-8'>Work Experience</h1>

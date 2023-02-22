@@ -1,8 +1,8 @@
-
+import Nav from "./Nav";
 export default function About() {
     return (
         <>
-
+              <Nav/>
             <div className="flex justify-between w-[96%] m-auto pt-8">
                 <div className="w-full ">
                     <img src="./img/dev.png" alt="" />

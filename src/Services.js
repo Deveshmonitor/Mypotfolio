@@ -1,8 +1,10 @@
 import React from 'react'
+import Nav from './Nav'
 
 function Services() {
   return (
    <>
+   <Nav/>
    <div>
     <h1 className='text-fuchsia-500 text-8xl font-bold text-center my-8'>Services</h1>
     <div className="flex flex-wrap justify-between w-[96%] m-auto">

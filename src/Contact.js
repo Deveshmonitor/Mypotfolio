@@ -1,7 +1,9 @@
 import React from "react";
+import Nav from "./Nav";
 function Contact() {
     return(
      <>
+     <Nav/>
        <div className="flex justify-between w-[96%] m-auto pt-10">
               
                 <div className="w-full py-6 ">
