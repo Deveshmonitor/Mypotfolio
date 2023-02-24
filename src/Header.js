@@ -5,34 +5,41 @@ function Header() {
     return (
         <>
 
-            <div className="Navbar text-white  w-[96%] m-auto py-4  flex flex-col 
+<div className="Navbar  text-white  w-[96%] m-auto py-4  flex flex-col 
             justify-between  md:flex-row 
-             text-center align-middle items-center bg--500">
-                <div>
-                    <span className='inline-block text-3xl font-bold hover:text-fuchsia-500'>Web</span>
-                    <span className='font-bold text-neutral-500 m-0'>Developer</span>
+             text-center   ">
+        <div className='py-5 md:py-0'>
+          <span className='inline-block text-3xl font-bold hover:text-fuchsia-500'>Web</span>
+          <span className='font-bold text-neutral-500 m-0'>Developer</span>
 
-                </div>
-                <div className='flex align-center items-center '>
-                    <ul className="flex px-3 mr-5">
-                        <NavLink to="/" className='px-3 hover:text-fuchsia-500 font-bold '>Home</NavLink>
-                        <NavLink to="/about" className='px-3 hover:text-fuchsia-500 font-bold '>About</NavLink>
-                        <NavLink to="/contact" className='px-3 hover:text-fuchsia-500 font-bold '>Contact</NavLink>
-                        <NavLink to="/services" className='px-3 hover:text-fuchsia-500 font-bold '>Service</NavLink>
-                        <NavLink to="/work" className='px-3 hover:text-fuchsia-500 font-bold '>Project</NavLink>
-                    </ul>
-                    <a href="" className=' p-2 align-middle border-fuchsia-500 border-2 font-bold
+        </div>
+        <div className='flex flex-col md:flex-row align-center text-center items-center '>
+          <ul className="flex  px-3 mr-5">
+            <NavLink to="/" className='px-3 hover:text-fuchsia-500 font-bold'>Home</NavLink>
+            <NavLink to="/about" className='px-3 hover:text-fuchsia-500 font-bold '>About</NavLink>
+            <NavLink to="/contact" className='px-3 hover:text-fuchsia-500 font-bold '>Contact</NavLink>
+            <NavLink to="/services" className='px-3 hover:text-fuchsia-500 font-bold '>Service</NavLink>
+            <NavLink to="/work" className='px-3 hover:text-fuchsia-500 font-bold '>Project</NavLink>
+          </ul>
+           <div className='my-5 md:m-0'>
+           <a href="/#" type='sumit' className=' text-center p-2 align-middle border-fuchsia-500 border-2 font-bold
                      text-sm  hover:bg-fuchsia-500 rounded-full '>Contact Me</a>
-                </div>
+        
+           </div>
+          
 
 
-            </div>
+        </div>
+        
+
+
+      </div>
 
 
             {/* this is main content  */}
 
-            <div className="flex justify-between m-auto w-[96%]">
-                <div className=' w-[40%] pt-40'>
+            <div className="flex flex-col md:flex-row justify-between m-auto  w-[96%]">
+                <div className=' w-full md:w-[40%] pt-40 text-center md:text-left my-5 md:my-0 bg-local ' >
                     <h1 className='text-6xl font-bold text-fuchsia-500'>Hey Guys!</h1>
                     <h1 className='text-6xl font-bold text-fuchsia-500'>I'm Devesh Sen</h1>
                     <div className=''>
@@ -41,12 +48,12 @@ function Header() {
                             Skils like Html,Css,JavaScript,React,Java and many more</p>
                     </div>
                     <div className='mt-14'>
-                        <a href="" className='text-sm border-2 border-fuchsia-500 hover:bg-fuchsia-500 rounded-full font-bold py-2  px-4'>Get Start</a>
-                        <a href="" className='text-sm border-2 border-fuchsia-500 hover:bg-fuchsia-500 rounded-full font-bold py-2  px-4 ml-8'>View CV</a>
+                        <a href="/#" className='text-sm border-2 border-fuchsia-500 hover:bg-fuchsia-500 rounded-full font-bold py-2  px-4'>Get Start</a>
+                        <a href="/#" className='text-sm border-2 border-fuchsia-500 hover:bg-fuchsia-500 rounded-full font-bold py-2  px-4 ml-8'>View CV</a>
                     </div>
                 </div>
 
-                <div className='w-[40%]'>
+                <div className='w-full md:w-[40%]'>
                     <img src="./img/dev.png" alt="" />
                 </div>
 
